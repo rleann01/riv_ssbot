@@ -1,10 +1,10 @@
 <?php
-//==============[CC CHECKER BOT API MADE BY [🇮🇳]DRAGON MASTER]================//
+//==============[CC CHECKER BOT API MADE BY [ðŸ‡®ðŸ‡³]DRAGON MASTER]================//
 
 //=======[Webhook]========https://api.telegram.org/bot1917420727:AAF9RuwMqWfLh3wQTed_jrkJ-lsTLuGZPe4/setwebhook?url=<url>
 
 //================[Telegram BOT API TOKEN ]================//
-$botToken = "5742983420:AAHTwDILY_N2TtAHQSO_Urh1KZYZksoXr0s"; #<------------------- PUT YOUR TOKEN HERE------------->#
+$botToken = ":5742983420:AAGjjEx80DCrlcI31QOoSRCcR37zd1zKo_U"; #<------------------- PUT YOUR TOKEN HERE------------->#
 $website = "https://api.telegram.org/bot".$botToken;
 error_reporting(0);
 $update = file_get_contents('php://input');
@@ -27,7 +27,7 @@ sendMessage ($chatId, "<b>Hello @$username!! Check my commands by entering /cmds
 //=============[Command Section]============//
 
 elseif ((strpos($message, "!cmds") === 0)||(strpos($message, "/cmds") === 0)){
-sendMessage($chatId, "GATEWAYS%0A%0A<b>STRIPE</b> [CVV/CCN] <code>/chk cc|mm|yy|cvv</code>%0A✅STATUS :- LIVE%0A%0A<b>SK [LIVE]</b> <code>/key sk_live</code>%0A✅STATUS :- LIVE%0A%0A<b>INFO</b> /info %0A✅STATUS :- LIVE%0A%0A<b>BIN [CHECK]</b> <code>/bin xxxxxx</code>%0A✅STATUS :- LIVE%0A%0ABOT MADE BY:- <b><i>[🇮🇳] DRAGON MASTER</i></b>");
+sendMessage($chatId, "GATEWAYS%0A%0A<b>STRIPE</b> [CVV/CCN] <code>/chk cc|mm|yy|cvv</code>%0Aâœ…STATUS :- LIVE%0A%0A<b>SK [LIVE]</b> <code>/key sk_live</code>%0Aâœ…STATUS :- LIVE%0A%0A<b>INFO</b> /info %0Aâœ…STATUS :- LIVE%0A%0A<b>BIN [CHECK]</b> <code>/bin xxxxxx</code>%0Aâœ…STATUS :- LIVE%0A%0ABOT MADE BY:- <b><i>[ðŸ‡®ðŸ‡³] DRAGON MASTER</i></b>");
 }
 
 //=========[Bin Command]=========//
@@ -61,7 +61,7 @@ $emoji = GetStr($fim, '"emoji":"', '"');
 $type = GetStr($fim, '"type":"', '"');
 if(strpos($fim, '"type":"credit"') !== false){
 };
-sendMessage($chatId, '<b>🟢Valid Bin :- </b>'.$bin.'%0A<b>✄1�7 Bank:</b> '.$bank.'%0A<b>✄1�7 Country:</b> '.$name.''.$emoji.'%0A<b>✄1�7 Brand:</b> '.$brand.'%0A<b>✄1�7 Card:</b> '.$scheme.'%0A<b>✄1�7 Type:</b> '.$type.'%0A<b>▬▬▬▬▬▬▬▬▬▬▬▬▬▬</b>%0A<b>✄1�7 CHECKED BY -</b>: @'.$username.'%0A<b>✄1�7 BOT BY</b>:<a> [🇮🇳]DRAGON MASTER</a>', $message_id);
+sendMessage($chatId, '<b>ðŸŸ¢Valid Bin :- </b>'.$bin.'%0A<b>âœ„1¤7 Bank:</b> '.$bank.'%0A<b>âœ„1¤7 Country:</b> '.$name.''.$emoji.'%0A<b>âœ„1¤7 Brand:</b> '.$brand.'%0A<b>âœ„1¤7 Card:</b> '.$scheme.'%0A<b>âœ„1¤7 Type:</b> '.$type.'%0A<b>â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬</b>%0A<b>âœ„1¤7 CHECKED BY -</b>: @'.$username.'%0A<b>âœ„1¤7 BOT BY</b>:<a> [ðŸ‡®ðŸ‡³]DRAGON MASTER</a>', $message_id);
 }
 //=========[Bin Command-END]=========//
 
@@ -69,7 +69,7 @@ sendMessage($chatId, '<b>🟢Valid Bin :- </b>'.$bin.'%0A<b>✄1�7 Bank:</b> '.$
 //=========[Info Command]=========//
 
 elseif ((strpos($message, "!info") === 0)||(strpos($message, "/info") === 0)){
-sendMessage($chatId, "✄1�7 Chat [ID]: <code>$chatId</code>%0A✄1�7 Name: $firstname%0A✄1�7 Username: @$username%0A%0A✄1�7<b>Bot Made by: [🇮🇳]DRAGON MASTER </b>");
+sendMessage($chatId, "âœ„1¤7 Chat [ID]: <code>$chatId</code>%0Aâœ„1¤7 Name: $firstname%0Aâœ„1¤7 Username: @$username%0A%0Aâœ„1¤7<b>Bot Made by: [ðŸ‡®ðŸ‡³]DRAGON MASTER </b>");
 }
 //=========[Info Command-END]=========//
 
@@ -363,68 +363,68 @@ curl_close($ch);
 
 if ((strpos($result2, 'incorrect_zip')) || (strpos($result2, 'Your card zip code is incorrect.')) || (strpos($result2, 'The zip code you supplied failed validation.'))){
 
-sendMessage($chatId, '<b>[✄1�7 APPROVED] CVV </b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Your Card Zip Code Is Incorrect.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
+sendMessage($chatId, '<b>[âœ„1¤7 APPROVED] CVV </b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Your Card Zip Code Is Incorrect.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
 }
 
 elseif ((strpos($result2, '"cvc_check":"pass"')) || (strpos($result2, "Thank You.")) || (strpos($result2, '"status": "succeeded"')) || (strpos($result2, "Thank You For Donation.")) || (strpos($result2, "Your payment has already been processed")) || (strpos($result2, "Success ")) || (strpos($result2, '"type":"one-time"')) || (strpos($result2, "/donations/thank_you?donation_number="))){
-sendMessage($chatId, '<b>[✄1�7 APPROVED] CVV </b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- CVV PASS] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
+sendMessage($chatId, '<b>[âœ„1¤7 APPROVED] CVV </b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- CVV PASS] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
 }
 
 elseif ((strpos($result2, 'Your card has insufficient funds.')) || (strpos($result2, 'insufficient_funds'))){
-sendMessage($chatId, '<b>[✄1�7 APPROVED] CVV </b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Insufficient Funds.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
+sendMessage($chatId, '<b>[âœ„1¤7 APPROVED] CVV </b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Insufficient Funds.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
 }
 
 elseif ((strpos($result2, 'requires an authorization.')) || (strpos($result2, 'VBV Card'))){
-sendMessage($chatId, '<b>[✄1�7 APPROVED] CVV </b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Insufficient Funds.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
+sendMessage($chatId, '<b>[âœ„1¤7 APPROVED] CVV </b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Insufficient Funds.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
 }
 
 elseif ((strpos($result2, "Your card's security code is incorrect.")) || (strpos($result2, "incorrect_cvc")) || (strpos($result2, "The card's security code is incorrect."))){
-sendMessage($chatId, '<b>[✄1�7 APPROVED] CCN </b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R-incorrect_cvc] [C-B:- @'.$username.'][M-B:- @LegendPikachu_YT]</b>');
+sendMessage($chatId, '<b>[âœ„1¤7 APPROVED] CCN </b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R-incorrect_cvc] [C-B:- @'.$username.'][M-B:- @LegendPikachu_YT]</b>');
 }
 
 elseif ((strpos($result2, "Your card does not support this type of purchase.")) || (strpos($result2, "transaction_not_allowed"))){
-sendMessage($chatId, '<b>[✄1�7 APPROVED] CVV </b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Card Doesnt Support This Purchase.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
+sendMessage($chatId, '<b>[âœ„1¤7 APPROVED] CVV </b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Card Doesnt Support This Purchase.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
 }
 
 elseif ((strpos($result2, "pickup_card")) || (strpos($result2, "lost_card")) || (strpos($result2, "stolen_card"))){
-sendMessage($chatId, '<b>[✄1�7 APPROVED] CVV </b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Pickup/Lost/Stolen.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
+sendMessage($chatId, '<b>[âœ„1¤7 APPROVED] CVV </b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Pickup/Lost/Stolen.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
 }
 
 
 elseif (strpos($result2, "do_not_honor")){
-sendMessage($chatId, '<b>[❄1�7 Dead]</b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Do Not Honor] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
+sendMessage($chatId, '<b>[â„1¤7 Dead]</b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Do Not Honor] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
 }
 
 elseif ((strpos($result2, 'The card number is incorrect.')) || (strpos($result2, 'Your card number is incorrect.')) || (strpos($result2, 'incorrect_number'))){
-sendMessage($chatId, '<b>[❄1�7 Dead]</b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Incorrect Card Number.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
+sendMessage($chatId, '<b>[â„1¤7 Dead]</b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Incorrect Card Number.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
 }
 
 
 elseif ((strpos($result2, 'Your card has expired.')) || (strpos($result2, 'expired_card'))){
-sendMessage($chatId, '<b>[❄1�7 Dead]</b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Expired Card.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
+sendMessage($chatId, '<b>[â„1¤7 Dead]</b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Expired Card.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
 }
 
 
 elseif ((strpos($result2, "Your card was declined.")) || (strpos($result2, 'The card was declined.'))){
-sendMessage($chatId, '<b>[❄1�7 Dead]</b> '.$lista.' <b>[' . $type . '-' . $brand . '-' . $name2 . '-' . $currency . '$$$] [R- Your Card Was Declined.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
+sendMessage($chatId, '<b>[â„1¤7 Dead]</b> '.$lista.' <b>[' . $type . '-' . $brand . '-' . $name2 . '-' . $currency . '$$$] [R- Your Card Was Declined.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
 }
 
 elseif (strpos($result1, "generic_decline")){
-sendMessage($chatId, '<b>[❄1�7 Dead]</b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Generic_Decline.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
+sendMessage($chatId, '<b>[â„1¤7 Dead]</b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Generic_Decline.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
 }
 elseif (strpos($result2, "generic_decline")){
-sendMessage($chatId, '<b>[❄1�7 Dead]</b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Generic_Decline.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
+sendMessage($chatId, '<b>[â„1¤7 Dead]</b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Generic_Decline.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
 }
 elseif ((strpos($result2, '"cvc_check":"unavailable"')) || (strpos($result2, '"cvc_check": "unchecked"')) || (strpos($result2, '"cvc_check": "fail"'))){
-sendMessage($chatId, '<b>[❄1�7 Dead]</b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Security Code Check : '.$cvc_check.' (Proxy Dead/change IP) ] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
+sendMessage($chatId, '<b>[â„1¤7 Dead]</b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Security Code Check : '.$cvc_check.' (Proxy Dead/change IP) ] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
 }
 
 elseif (strpos($result2, '-1')){
-sendMessage($chatId, '<b>[❄1�7 Dead]</b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Update Nonce.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
+sendMessage($chatId, '<b>[â„1¤7 Dead]</b> '.$lista.' [<i>' . $type . '-' . $brand . '-' . $name1 . '-' . $currency . '$</i>] <b> [R- Update Nonce.] [C-B:- @'.$username.'] [M-B:- @LegendPikachu_YT]</b>');
 }
 
 elseif ((strpos($result2, "missing input"))){
-sendMessage($chatId, '❌Invalid Command❄1�7%0A❗️GATE CHK AUTH%0A❗️Example: /chk xxxxxxxxxxxxxxxx|xx|xx|xxx%0A❗️EX :- /chk 4010990064374103|09|2026|345');
+sendMessage($chatId, 'âŒInvalid Commandâ„1¤7%0Aâ—ï¸GATE CHK AUTH%0Aâ—ï¸Example: /chk xxxxxxxxxxxxxxxx|xx|xx|xxx%0Aâ—ï¸EX :- /chk 4010990064374103|09|2026|345');
 }
 
 elseif(!$result2){
@@ -452,17 +452,17 @@ $result = curl_exec($ch);
 
 
 if (strpos($result, 'api_key_expired')){
-sendMessage($chatId, "<b>🔴EXPIRED KEY</b>%0A<u>✦Key:</u> <code>$sec</code>%0A<b>✦Message: <b>Expired API key Provided%0A</b>✦Checked by:</b> @$username%0A<b>✦Bot Made by:[🇮🇳]DRAGON MASTER</b>", $message_id);
+sendMessage($chatId, "<b>ðŸ”´EXPIRED KEY</b>%0A<u>âœ¦Key:</u> <code>$sec</code>%0A<b>âœ¦Message: <b>Expired API key Provided%0A</b>âœ¦Checked by:</b> @$username%0A<b>âœ¦Bot Made by:[ðŸ‡®ðŸ‡³]DRAGON MASTER</b>", $message_id);
 }elseif (strpos($result, 'Invalid API Key provided')){
-sendMessage($chatId, "<b>🔴INVALID KEY</b>%0A<b>✦Key:</b> <code>$sec</code>%0A<b>✦Message: <b>Invalid API Key provided.%0A</b>✦Checked by: </b>@$username%0A<b>✦Bot Made by:[🇮🇳]DRAGON MASTER</b>", $message_id);
+sendMessage($chatId, "<b>ðŸ”´INVALID KEY</b>%0A<b>âœ¦Key:</b> <code>$sec</code>%0A<b>âœ¦Message: <b>Invalid API Key provided.%0A</b>âœ¦Checked by: </b>@$username%0A<b>âœ¦Bot Made by:[ðŸ‡®ðŸ‡³]DRAGON MASTER</b>", $message_id);
 }
 elseif ((strpos($result, 'You did not provide an API key.')) || (strpos($result, 'You need to provide your API key in the Authorization header,'))){
-sendMessage($chatId, "<b>🔴NO KEY PROVIDED%0A✦Message:</b><b> You did not provide an API key.%0A</b><b>✦Checked by:</b> @$username%0A<b>✦Bot Made by:[🇮🇳]DRAGON MASTER</b>", $message_id);
+sendMessage($chatId, "<b>ðŸ”´NO KEY PROVIDED%0Aâœ¦Message:</b><b> You did not provide an API key.%0A</b><b>âœ¦Checked by:</b> @$username%0A<b>âœ¦Bot Made by:[ðŸ‡®ðŸ‡³]DRAGON MASTER</b>", $message_id);
 }
 elseif ((strpos($result, 'testmode_charges_only')) || (strpos($result, 'test_mode_live_card'))){
-sendMessage($chatId, "<b>🔴DEAD KEY</b>%0A<b>✦Key:</b> <code>$sec</code>%0A<b>✦Message: <b>Testmode charges only.%0A</b>✦Checked by:</b> @$username%0A<b>✦Bot Made by:[🇮🇳]DRAGON MASTER</b>", $message_id);
+sendMessage($chatId, "<b>ðŸ”´DEAD KEY</b>%0A<b>âœ¦Key:</b> <code>$sec</code>%0A<b>âœ¦Message: <b>Testmode charges only.%0A</b>âœ¦Checked by:</b> @$username%0A<b>âœ¦Bot Made by:[ðŸ‡®ðŸ‡³]DRAGON MASTER</b>", $message_id);
 }else{
-sendMessage($chatId, "<b>🟢LIVE KEY</b>%0A<b>✦Key:</b><code>$sec</code>%0A<b>✦Message:<b> Live API key provided.%0A</b>✦Checked by:</b> @$username%0A<b>✦Bot Made by:[🇮🇳]DRAGON MASTER</b>", $message_id);
+sendMessage($chatId, "<b>ðŸŸ¢LIVE KEY</b>%0A<b>âœ¦Key:</b><code>$sec</code>%0A<b>âœ¦Message:<b> Live API key provided.%0A</b>âœ¦Checked by:</b> @$username%0A<b>âœ¦Bot Made by:[ðŸ‡®ðŸ‡³]DRAGON MASTER</b>", $message_id);
 }
 }
 
